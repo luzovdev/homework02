@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   background-color: rgb(216, 146, 146);
+   color: #000;
+}
+
+.wrapper{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.content img{
+   width: 100%;
+}
+
+.chapter{}
+.chapter:nth-child(even){
+   background-color: rgb(103, 236, 103);
+}
+.chapter:nth-child(even) h2{
+  font-style: italic;
+}
+.chapter:nth-child(odd){
+   background-color: rgb(119, 168, 214);
+}
+.nav {
+}
+.nav__title {
+   margin:0px 0px 15px 0px;
+}
+.nav__list {
+}
+.nav__list li {
+   display: inline-block;
+   list-style: none;
+   margin:0px 30px 10px 0px; 
+}
+.nav__list a {
+   display: inline-block;
+   text-decoration: none;
+   background-color: rgb(241, 231, 86);
+   color: rgb(0, 0, 0);
+   padding: 10px 5px;
+   opacity: 0.7;
+   transition: opacity 0.2s ease 0s;
+}
+
+.nav__list a:hover{
+   opacity: 1;
+}
+
+.nav__sublist {
+   margin: 5px 0px 0px 0px;
+}
+.nav__sublist a {
+   background-color: rgb(72, 92, 99);
+   color: #fff;
+}
+
+.up{
+   display: inline-block;
+   margin: 10px 0px 0px 0px;
+   background-color: rgb(209, 255, 5);
+   padding: 20px 10px;
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+   opacity: 0.7;
+   transition: opacity 0.2s ease 0s;
+}
+.up:hover{
+   opacity: 1;
+}
+
+
